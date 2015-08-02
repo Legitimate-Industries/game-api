@@ -22,5 +22,9 @@ public abstract class Actor {
     public Body getBody(){
         return body;
     }
+    
+    public abstract int getX();
+    
+    public abstract int getY();
 
 }
