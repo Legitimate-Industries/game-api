@@ -26,5 +26,9 @@ public abstract class Actor {
     public abstract int getX();
     
     public abstract int getY();
+    
+    public abstract int getWidth();
+    
+    public abstract int getHeight();
 
 }
