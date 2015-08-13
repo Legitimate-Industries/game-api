@@ -1,6 +1,7 @@
 package model;
 
 import java.awt.Image;
+import java.awt.Rectangle;
 import net.phys2d.raw.Body;
 
 /**
@@ -23,12 +24,34 @@ public abstract class Actor {
         return body;
     }
     
-    public abstract int getX();
+    public int getX(){
+        return (int)body.getPosition().getX();
+    }
     
-    public abstract int getY();
+    public int getSwingX(){
+        return getX()-(getWidth()/2);
+    }
     
-    public abstract int getWidth();
+    public int getY(){
+        return (int)body.getPosition().getY();
+    }
     
-    public abstract int getHeight();
+    public int getSwingY(){
+        return getY()-(getHeight()/2);
+    }
+    
+    public int getWidth(){
+        return (int)body.getShape().getBounds().getWidth();
+    }
+    
+    public int getHeight(){
+        return (int)body.getShape().getBounds().getHeight();
+    }
+    
+    public Rectangle.Double getRect(){
+        return new Rectangle.Double(getSwingX(),getSwingY(),getWidth(),getHeight());
+    }
+    
+    
 
 }
