@@ -22,13 +22,13 @@ public class TestMain {
     
     public static void main(String[] args){
         
-        World w = new World(new Vector2f(0,100), 10);
+        World w = new World(new Vector2f(10,100), 10);
         
         ActorWorld world = new ActorWorld(w);
         
-        //View v = new View(world);
+        //View v = new SwingView(world);
         
-        View v = new View(world,0,0,.2);
+        SwingView v = new SwingView(world,0,0,.2);
         
         Body b = new Body(new Box(50, 50),5);
         b.setPosition(50, 50);
@@ -88,8 +88,8 @@ class TempFrame extends JFrame{
     
 }
 class TempPanel extends JPanel{
-    View view;
-    public TempPanel(View v){
+    SwingView view;
+    public TempPanel(SwingView v){
         view = v;
         addMouseListener(new MouseListener() {
 
@@ -125,7 +125,7 @@ class TempPanel extends JPanel{
     public void paint(Graphics g){
         super.paint(g);
         BufferedImage b = new BufferedImage(1000,700,BufferedImage.TYPE_4BYTE_ABGR);
-        view.paint((Graphics2D)b.getGraphics(), 0, 0, 1000, 700);
+        view.paint((Graphics2D)b.getGraphics(), 1000, 700);
         g.drawImage(b, 0, 0, null);
     }
     

@@ -30,5 +30,9 @@ public class ActorWorld {
         actors.add(a);
     }
     
+    public World getWorld(){
+        return world;
+    }
+    
     
 }

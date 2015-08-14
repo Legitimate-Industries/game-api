@@ -48,8 +48,10 @@ public abstract class Actor {
         return (int)body.getShape().getBounds().getHeight();
     }
     
-    public Rectangle.Double getRect(){
-        return new Rectangle.Double(getSwingX(),getSwingY(),getWidth(),getHeight());
+    
+    //where higher number is painted last
+    public int priority(){
+        return 5;
     }
     
     
