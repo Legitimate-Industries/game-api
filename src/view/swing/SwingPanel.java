@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
-import model.ActorWorld;
+import model.actorworld.ActorWorld;
 import view.AbstractView;
 
 /**

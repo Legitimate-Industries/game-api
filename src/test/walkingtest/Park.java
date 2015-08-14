@@ -2,7 +2,7 @@ package test.walkingtest;
 
 import java.io.File;
 import java.util.*;
-import model.ActorWorld;
+import model.actorworld.ActorWorld;
 import net.phys2d.math.Vector2f;
 import net.phys2d.raw.World;
 

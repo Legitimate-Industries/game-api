@@ -1,4 +1,5 @@
 package test;
+import model.actorworld.ActorWorld;
 import view.swing.SwingView;
 import java.awt.Color;
 import java.awt.Graphics;

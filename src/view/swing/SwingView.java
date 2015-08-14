@@ -10,7 +10,7 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 import model.Actor;
-import model.ActorWorld;
+import model.actorworld.ActorWorld;
 
 /**
  *
