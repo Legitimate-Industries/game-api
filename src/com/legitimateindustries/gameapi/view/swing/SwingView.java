@@ -1,4 +1,4 @@
-package view.swing;
+package com.legitimateindustries.gameapi.view.swing;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -9,8 +9,8 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
-import model.Actor;
-import model.actorworld.ActorWorld;
+import com.legitimateindustries.gameapi.model.Actor;
+import com.legitimateindustries.gameapi.model.actorworld.ActorWorld;
 
 /**
  *

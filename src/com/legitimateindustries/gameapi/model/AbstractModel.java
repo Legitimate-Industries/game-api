@@ -1,4 +1,4 @@
-package model;
+package com.legitimateindustries.gameapi.model;
 
 import java.util.Set;
 import net.phys2d.raw.World;

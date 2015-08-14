@@ -1,8 +1,8 @@
-package test.walkingtest;
+package com.legitimateindustries.gameapi.test.walkingtest;
 
 import java.io.File;
 import java.util.*;
-import model.actorworld.ActorWorld;
+import com.legitimateindustries.gameapi.model.actorworld.ActorWorld;
 import net.phys2d.math.Vector2f;
 import net.phys2d.raw.World;
 

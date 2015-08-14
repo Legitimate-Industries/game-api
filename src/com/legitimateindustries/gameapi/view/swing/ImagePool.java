@@ -1,4 +1,4 @@
-package view.swing;
+package com.legitimateindustries.gameapi.view.swing;
 
 import java.util.*;
 import java.awt.*;

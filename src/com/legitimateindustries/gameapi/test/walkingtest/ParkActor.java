@@ -1,9 +1,9 @@
-package test.walkingtest;
+package com.legitimateindustries.gameapi.test.walkingtest;
 
 import java.util.*;
 import java.io.*;
 import java.awt.*;
-import model.Actor;
+import com.legitimateindustries.gameapi.model.Actor;
 import net.phys2d.raw.Body;
 import net.phys2d.raw.StaticBody;
 import net.phys2d.raw.shapes.Box;

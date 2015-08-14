@@ -1,11 +1,11 @@
-package controller.swing;
+package com.legitimateindustries.gameapi.controller.swing;
 
-import controller.AbstractController;
+import com.legitimateindustries.gameapi.controller.AbstractController;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.event.MouseWheelListener;
-import view.swing.SwingPanel;
+import com.legitimateindustries.gameapi.view.swing.SwingPanel;
 
 /**
  *

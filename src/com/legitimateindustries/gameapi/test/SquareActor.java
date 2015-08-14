@@ -1,10 +1,10 @@
-package test;
+package com.legitimateindustries.gameapi.test;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
-import model.Actor;
+import com.legitimateindustries.gameapi.model.Actor;
 import net.phys2d.raw.Body;
 import net.phys2d.raw.shapes.Box;
 

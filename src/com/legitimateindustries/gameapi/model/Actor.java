@@ -1,4 +1,4 @@
-package model;
+package com.legitimateindustries.gameapi.model;
 
 import java.awt.Image;
 import java.awt.Rectangle;

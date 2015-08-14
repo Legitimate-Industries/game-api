@@ -1,4 +1,4 @@
-package test.walkingtest;
+package com.legitimateindustries.gameapi.test.walkingtest;
 
 import java.awt.Image;
 import javax.imageio.ImageIO;

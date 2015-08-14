@@ -1,4 +1,4 @@
-package view;
+package com.legitimateindustries.gameapi.view;
 
 /**
  * The View, as well as follow this template, should also display

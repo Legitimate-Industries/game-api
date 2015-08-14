@@ -1,10 +1,10 @@
-package bridge.swing;
+package com.legitimateindustries.gameapi.bridge.swing;
 
-import bridge.AbstractBridge;
-import controller.swing.SwingController;
-import model.actorworld.ActorWorld;
+import com.legitimateindustries.gameapi.bridge.AbstractBridge;
+import com.legitimateindustries.gameapi.controller.swing.SwingController;
+import com.legitimateindustries.gameapi.model.actorworld.ActorWorld;
 import net.phys2d.raw.World;
-import view.swing.SwingPanel;
+import com.legitimateindustries.gameapi.view.swing.SwingPanel;
 
 /**
  *

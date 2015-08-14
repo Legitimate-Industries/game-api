@@ -1,11 +1,11 @@
-package view.swing;
+package com.legitimateindustries.gameapi.view.swing;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
-import model.actorworld.ActorWorld;
-import view.AbstractView;
+import com.legitimateindustries.gameapi.model.actorworld.ActorWorld;
+import com.legitimateindustries.gameapi.view.AbstractView;
 
 /**
  * An implementation of AbstractView using Swing and outputting using a JPanel.

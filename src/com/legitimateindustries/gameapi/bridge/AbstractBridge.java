@@ -1,8 +1,8 @@
-package bridge;
+package com.legitimateindustries.gameapi.bridge;
 
-import controller.AbstractController;
-import model.AbstractModel;
-import view.AbstractView;
+import com.legitimateindustries.gameapi.controller.AbstractController;
+import com.legitimateindustries.gameapi.model.AbstractModel;
+import com.legitimateindustries.gameapi.view.AbstractView;
 
 /**
  *

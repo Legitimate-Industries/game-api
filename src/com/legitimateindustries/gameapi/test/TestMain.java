@@ -1,6 +1,6 @@
-package test;
-import model.actorworld.ActorWorld;
-import view.swing.SwingView;
+package com.legitimateindustries.gameapi.test;
+import com.legitimateindustries.gameapi.model.actorworld.ActorWorld;
+import com.legitimateindustries.gameapi.view.swing.SwingView;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -9,7 +9,6 @@ import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import model.*;
 import net.phys2d.math.Vector2f;
 import net.phys2d.raw.Body;
 import net.phys2d.raw.World;

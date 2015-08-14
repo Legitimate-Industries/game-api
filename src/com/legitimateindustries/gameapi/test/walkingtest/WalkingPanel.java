@@ -1,4 +1,4 @@
-package test.walkingtest;
+package com.legitimateindustries.gameapi.test.walkingtest;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -10,7 +10,7 @@ import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
-import view.swing.SwingView;
+import com.legitimateindustries.gameapi.view.swing.SwingView;
 
 /**
  *

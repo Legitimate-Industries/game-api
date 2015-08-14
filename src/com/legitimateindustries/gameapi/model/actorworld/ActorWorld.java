@@ -1,8 +1,8 @@
-package model.actorworld;
+package com.legitimateindustries.gameapi.model.actorworld;
 
 import java.util.*;
-import model.AbstractModel;
-import model.Actor;
+import com.legitimateindustries.gameapi.model.AbstractModel;
+import com.legitimateindustries.gameapi.model.Actor;
 import net.phys2d.raw.World;
 
 /**

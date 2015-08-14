@@ -1,4 +1,4 @@
-package test.walkingtest;
+package com.legitimateindustries.gameapi.test.walkingtest;
 import java.util.*;
 import java.io.*;
 /**

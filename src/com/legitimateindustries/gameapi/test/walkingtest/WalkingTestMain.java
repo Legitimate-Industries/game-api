@@ -1,11 +1,11 @@
-package test.walkingtest;
+package com.legitimateindustries.gameapi.test.walkingtest;
 import java.awt.Insets;
 import java.util.*;
 import java.io.*;
 import java.lang.reflect.Field;
 import javax.swing.JFrame;
-import view.swing.SwingPanel;
-import view.swing.SwingView;
+import com.legitimateindustries.gameapi.view.swing.SwingPanel;
+import com.legitimateindustries.gameapi.view.swing.SwingView;
 /**
  *
  * @author Nathan Dias {@literal <nathanxyzdias@gmail.com>}
