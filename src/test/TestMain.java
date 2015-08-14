@@ -1,4 +1,5 @@
 package test;
+import view.swing.SwingView;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -12,7 +13,6 @@ import net.phys2d.math.Vector2f;
 import net.phys2d.raw.Body;
 import net.phys2d.raw.World;
 import net.phys2d.raw.shapes.Box;
-import view.*;
 /**
  *
  * @author Nathan Dias {@literal <nathanxyzdias@gmail.com>}

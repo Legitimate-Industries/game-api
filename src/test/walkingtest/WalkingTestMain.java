@@ -2,9 +2,10 @@ package test.walkingtest;
 import java.awt.Insets;
 import java.util.*;
 import java.io.*;
+import java.lang.reflect.Field;
 import javax.swing.JFrame;
-import view.SwingPanel;
-import view.SwingView;
+import view.swing.SwingPanel;
+import view.swing.SwingView;
 /**
  *
  * @author Nathan Dias {@literal <nathanxyzdias@gmail.com>}
@@ -22,15 +23,22 @@ public class WalkingTestMain {
         JFrame j = new JFrame("TEST");
         j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        SwingView s = new SwingView(w.park);
-        s.setZoom(1);
-        WalkingPanel p = new WalkingPanel(s);
+        SwingPanel sp = new SwingPanel(w.park,900,600);
+        
+        
+        //reflection used here because new framework does not support
+        //this code
+        Class c = SwingPanel.class;
+        Field f = c.getDeclaredField("view");
+        f.setAccessible(true);
+        WalkingPanel p = new WalkingPanel((SwingView)f.get(sp));
+        
+        
         j.add(p);
         p.addMouseWheelListener(p);
         p.addKeyListener(w);
         p.addKeyListener(p);
         p.setLayout(null);
-        SwingPanel sp = new SwingPanel(s,900,600);
         sp.setBounds(50, 50, 900, 600);
         p.add(sp);
         p.revalidate();

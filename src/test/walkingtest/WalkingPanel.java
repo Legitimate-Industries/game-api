@@ -10,7 +10,7 @@ import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 import java.awt.image.BufferedImage;
 import javax.swing.JPanel;
-import view.SwingView;
+import view.swing.SwingView;
 
 /**
  *

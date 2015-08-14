@@ -1,4 +1,4 @@
-package view;
+package view.swing;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -102,7 +102,4 @@ public class SwingView {
         pool.rescale(zoom);
     }
 
-    int scale(double sf, double toScale) {
-        return (int) (sf * toScale);
-    }
 }
